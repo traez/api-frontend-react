@@ -37,7 +37,7 @@ export default function App() {
         })
       }
     </article>  
-    <footer><a href="api-frontend-react" target="_blank">https://github.com/traez</a></footer>
+    <footer><a href="https://github.com/traez/api-frontend-react" target="_blank">https://github.com/traez</a></footer>
     </main>
 )}
 
