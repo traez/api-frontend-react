@@ -1,0 +1,2 @@
+react.js app with hardcoded firstname, surname and email input fields
+Also a button which when pressed executes fetch api call. firstname, surname and email input fields now changed with result of fetch api call

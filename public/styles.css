@@ -1,0 +1,110 @@
+/* 
+width: 60rem; 48
+height: 45rem; 36
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: auto;
+}
+body{
+  background-color: hsl(0, 0%, 75%);
+  padding:1rem;
+  font-family: 'Trebuchet MS';
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+main{
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+}
+button{
+  font-size: 1rem; 
+  font-weight: bolder;
+  background-color: rgb(184, 184, 184);
+  border: 2px solid hsl(204, 63%, 47%);
+  border-radius: 0.5rem;
+  padding:0.45rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(239, 232, 232);
+  padding:0.5rem;
+}
+article{
+  width: 60rem; 
+  height: auto;
+  background: #52daaa;
+  border: 2px solid hsl(204, 63%, 47%);
+  color: black;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+  gap: 0.5rem;
+}
+section{
+  border: 2px solid hsl(204, 63%, 47%);
+  border-radius: 0.5rem;
+  height: 11rem;
+  width: 10rem;
+  padding:0.1rem 0.3rem;
+}
+header{
+  background-image: url(images/harumestfacere.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 4rem;
+  width: 4rem;
+}
+.pic{
+  height: 4rem;
+  width: 4rem;
+}
+aside{
+  display: flex;
+  flex-flow: column;
+}
+h1,h2,h3{
+  font-size: 0.8rem;
+  text-align: left;
+  border: 1px solid hsl(204, 63%, 47%);
+  background-color: antiquewhite;
+}
+h4,h5,small{
+  font-size: 0.8rem;
+  text-align: right;
+  border: 1px solid hsl(204, 63%, 47%);
+  background-color: azure;
+}
+footer { 
+  display: flex;
+  flex-flow: row;
+  justify-content: center; 
+  align-items: center;
+  font-size: 0.9rem; 
+  background-color: rgb(184, 184, 184);
+  border: 2px solid hsl(204, 63%, 47%);
+  border-radius: 0.5rem;
+  padding:0.45rem;
+  }
+ footer:hover{
+    background-color: rgb(239, 232, 232);
+    padding:0.5rem;
+  }
+
+
+
+
